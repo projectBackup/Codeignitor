@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
  
     RewriteEngine On
-    RewriteBase /ray/
+    RewriteBase /codeignitor/
  
     # Removes trailing slashes (prevents SEO duplicate content issues)
     RewriteCond %{REQUEST_FILENAME} !-d
